@@ -1,0 +1,31 @@
+{
+  "name": "@alobato/use-focus-on-load",
+  "version": "1.0.0",
+  "description": "React hook to focus input on load",
+  "main": "index.js",
+  "repository": "github:alobato/use-focus-on-load",
+  "author": "alobato",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "focus-on-load"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "devDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "bugs": {
+    "url": "https://github.com/alobato/use-focus-on-load/issues"
+  },
+  "homepage": "https://github.com/alobato/use-focus-on-load#readme"
+}
