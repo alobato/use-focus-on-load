@@ -1,6 +1,6 @@
-# useDebounce
+useFocusOnLoad
 
-> React hook debounce
+> React hook Focus On Load
 
 > **Note:** This is using the new [React Hooks API](https://reactjs.org/docs/hooks-intro.html)
 >
@@ -9,14 +9,13 @@
 ## Install
 
 ```sh
-yarn add @alobato/use-debounce
+yarn add @alobato/use-focus-on-load
 ```
 
 ## Usage
 
 ```js
-import useKeyPress from '@alobato/use-debounce'
+import useFocusOnLoad from '@alobato/use-focus-on-load'
 ...
-  const [ search, setSearch ] = useState('')
-  const debouncedSearch = useDebounce(search, 500)
+useFocusOnLoad('name')
 ```
