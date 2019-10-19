@@ -22,10 +22,10 @@ export default elementName => {
   const { isDesktop } = mobileDetect(navigator.userAgent)
 
   useEffect(() => {
-    if (isDesktop) {
+    if (isDesktop()) {
       const firstElement = document.querySelector(`[name="${elementName}"]`)
       if (firstElement) firstElement.focus()
     }
-  }, [elementName])
+  }, [elementName, isDesktop])
 
 }
