@@ -26,6 +26,6 @@ export default elementName => {
       const firstElement = document.querySelector(`[name="${elementName}"]`)
       if (firstElement) firstElement.focus()
     }
-  }, [elementName, isDesktop])
+  }, [elementName])
 
 }

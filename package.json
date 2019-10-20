@@ -1,6 +1,6 @@
 {
   "name": "@alobato/use-focus-on-load",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React hook to focus input on load",
   "main": "index.js",
   "repository": "github:alobato/use-focus-on-load",
